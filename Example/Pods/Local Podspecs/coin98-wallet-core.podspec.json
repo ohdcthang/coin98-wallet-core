@@ -1,9 +1,9 @@
 {
   "name": "coin98-wallet-core",
   "version": "0.1.0",
-  "summary": "A short description of coin98-wallet-core.",
+  "summary": "Hehe.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/76133582/coin98-wallet-core",
+  "homepage": "https://github.com/ohdcthang/coin98-wallet-core.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "76133582": "hoducthangtn2nhvt@gmail.com"
   },
   "source": {
-    "git": "https://github.com/76133582/coin98-wallet-core.git",
+    "git": "https://github.com/ohdcthang/coin98-wallet-core.git",
     "tag": "0.1.0"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "coin98-wallet-core/Classes/**/*"
+  "source_files": "coin98-wallet-core/Classes/**/*",
+  "dependencies": {
+    "TrustWalletCore": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

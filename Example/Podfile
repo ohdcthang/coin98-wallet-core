@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '15.0'
 
 target 'coin98-wallet-core_Example' do
   pod 'coin98-wallet-core', :path => '../'

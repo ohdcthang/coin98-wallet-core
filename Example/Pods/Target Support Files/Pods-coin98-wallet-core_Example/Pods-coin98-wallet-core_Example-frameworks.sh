@@ -176,9 +176,13 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TrustWalletCore/WalletCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/coin98-wallet-core/coin98_wallet_core.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TrustWalletCore/WalletCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/coin98-wallet-core/coin98_wallet_core.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

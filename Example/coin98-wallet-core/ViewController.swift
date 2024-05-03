@@ -7,11 +7,23 @@
 //
 
 import UIKit
+import coin98_wallet_core
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let abc = Wallet()
+        
+        let mnemonic = "bacon grit piece velvet shallow mail hidden obey visa copy race certain"
+        
+        let path = "44'/60'/0'/0/0"
+        
+        
+        let rs = abc.createWallet(mnemonic: mnemonic, path: path)
+        
+        print(rs)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

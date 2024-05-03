@@ -1,16 +1,31 @@
 PODS:
-  - coin98-wallet-core (0.1.0)
+  - coin98-wallet-core (0.1.0):
+    - TrustWalletCore
+  - SwiftProtobuf (1.26.0)
+  - TrustWalletCore (4.0.40):
+    - TrustWalletCore/Core (= 4.0.40)
+  - TrustWalletCore/Core (4.0.40):
+    - TrustWalletCore/Types
+  - TrustWalletCore/Types (4.0.40):
+    - SwiftProtobuf
 
 DEPENDENCIES:
   - coin98-wallet-core (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+    - TrustWalletCore
 
 EXTERNAL SOURCES:
   coin98-wallet-core:
     :path: "../"
 
 SPEC CHECKSUMS:
-  coin98-wallet-core: e1b93ebd6049bdddcc14dcdfe7645110309d752c
+  coin98-wallet-core: d37703d0aa97ade34548da6e1e6fbf47ded209bd
+  SwiftProtobuf: 5e8349171e7c2f88f5b9e683cb3cb79d1dc780b3
+  TrustWalletCore: 30ed2cb693a081cf9bdcfe37cc394277ab618b38
 
-PODFILE CHECKSUM: 74dd82c9df6c796840a02db026444cef037f5910
+PODFILE CHECKSUM: 87b6b5e313688c621b2084a7c4a3e3ce508f7195
 
 COCOAPODS: 1.14.3
