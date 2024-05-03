@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'coin98-wallet-core'
-  s.version          = '0.0.1'
+  s.version          = '0.5.0'
   s.summary          = 'Hehe.'
 
 # This description is used to generate tags and improve search results.

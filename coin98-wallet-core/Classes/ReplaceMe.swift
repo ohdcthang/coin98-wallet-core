@@ -1,9 +1,15 @@
 import WalletCore
 
+public struct WalletInfo{
+    public var address: String
+    public var privateKey: String
+    public var publicKey: String
+}
+
 public class Wallet{
     public init(){}
     
-    public func createWallet(mnemonic: String, path: String) -> String{
+    public func createWallet(mnemonic: String, path: String) -> WalletInfo{
         let wallet = HDWallet(mnemonic: mnemonic, passphrase: "")!
         let key = wallet.getKey(coin: CoinType.ethereum , derivationPath: path)
           
@@ -13,7 +19,7 @@ public class Wallet{
          
         let privateKeyBase64 = key.data.hexString
         
-        return address + " " + publicKeyBase64 + " " + privateKeyBase64
+        return WalletInfo(address: address, privateKey: privateKeyBase64, publicKey: publicKeyBase64)
     }
 }
 
