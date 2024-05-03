@@ -1,0 +1,16 @@
+PODS:
+  - coin98-wallet-core (0.1.0)
+
+DEPENDENCIES:
+  - coin98-wallet-core (from `../`)
+
+EXTERNAL SOURCES:
+  coin98-wallet-core:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  coin98-wallet-core: e1b93ebd6049bdddcc14dcdfe7645110309d752c
+
+PODFILE CHECKSUM: 74dd82c9df6c796840a02db026444cef037f5910
+
+COCOAPODS: 1.14.3

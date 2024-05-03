@@ -1,0 +1,22 @@
+{
+  "name": "coin98-wallet-core",
+  "version": "0.1.0",
+  "summary": "A short description of coin98-wallet-core.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/76133582/coin98-wallet-core",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "76133582": "hoducthangtn2nhvt@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/76133582/coin98-wallet-core.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "coin98-wallet-core/Classes/**/*"
+}

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1C7FFB195F6EC46A6B32D38BF9BE8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2149D52DE7D4D99085512FC1C1F08F34 /* Pods-coin98-wallet-core_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 535AC82142BA52C8B836A7A20CD8E355 /* Pods-coin98-wallet-core_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3183FE2669EC33776A9D251FB82367DA /* Pods-coin98-wallet-core_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE06791065D20B0553E08FAAAA03723D /* Pods-coin98-wallet-core_Tests-dummy.m */; };
+		345E71CBC4104378D1ABFEBE8EFD5AFE /* coin98-wallet-core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D47C8906F3CEEC65444297A3E37F5C /* coin98-wallet-core-dummy.m */; };
+		55CD99967D0B4039CB05419FB7363E6B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD27C488A4405C8DBD0A8E2743A0357 /* ReplaceMe.swift */; };
+		5A187240E48A854D6A28D516BA5355E4 /* Pods-coin98-wallet-core_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC947ADFD821EFFBDA9EDFB26EFC3C /* Pods-coin98-wallet-core_Example-dummy.m */; };
+		5E68E93C04520D17BEE736BB615C417F /* Pods-coin98-wallet-core_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 100B47CC0F2EAF1359B934091ED986F1 /* Pods-coin98-wallet-core_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D24132A7121723B7E07EA2FA32529FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD3CE70E364C449E1CA51716C76D3ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D26EF75E3C1FCF188C3AB5DCAF06A500 /* coin98-wallet-core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EDD3D5B40D01C7EAADD19D293AAD5D /* coin98-wallet-core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F2614F6DD02C0240688585FD56B2A06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF40584248B49A851D5BB38C0E77229;
+			remoteInfo = "Pods-coin98-wallet-core_Example";
+		};
+		F6F49267F80106AE4F03EBF751BF8390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2D953516667D130A6CF224A6E3D9EB6;
+			remoteInfo = "coin98-wallet-core";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9FE955E363865A97FA0DBB264BFED4 /* Pods-coin98-wallet-core_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-coin98-wallet-core_Example-frameworks.sh"; sourceTree = "<group>"; };
+		100B47CC0F2EAF1359B934091ED986F1 /* Pods-coin98-wallet-core_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-coin98-wallet-core_Tests-umbrella.h"; sourceTree = "<group>"; };
+		222EC2F001BA86237E8FAE8F963B3A52 /* coin98-wallet-core.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "coin98-wallet-core.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24FD425E13E2494B6601036B88FCCBC2 /* Pods-coin98-wallet-core_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-coin98-wallet-core_Example.modulemap"; sourceTree = "<group>"; };
+		28EDD3D5B40D01C7EAADD19D293AAD5D /* coin98-wallet-core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "coin98-wallet-core-umbrella.h"; sourceTree = "<group>"; };
+		33BD997E0AD450FE596FC65C14D543A8 /* Pods-coin98-wallet-core_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-coin98-wallet-core_Tests.modulemap"; sourceTree = "<group>"; };
+		40DAE1A2207A06AF35BB014B5E4F57F8 /* Pods-coin98-wallet-core_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-coin98-wallet-core_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		431845D5A658A870900D8D8C21C697DF /* Pods-coin98-wallet-core_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-coin98-wallet-core_Example-Info.plist"; sourceTree = "<group>"; };
+		4AD27C488A4405C8DBD0A8E2743A0357 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "coin98-wallet-core/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		4EA291F29AB30B210A03C80E8134051B /* Pods-coin98-wallet-core_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-coin98-wallet-core_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		535AC82142BA52C8B836A7A20CD8E355 /* Pods-coin98-wallet-core_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-coin98-wallet-core_Example-umbrella.h"; sourceTree = "<group>"; };
+		58E6D3D3E2D4C6C385D14483043B2FD9 /* Pods-coin98-wallet-core_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-coin98-wallet-core_Example"; path = Pods_coin98_wallet_core_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6437AD1FB9F8036647C8C7F27D8A5F1A /* coin98-wallet-core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "coin98-wallet-core-prefix.pch"; sourceTree = "<group>"; };
+		682A016ED7D35455064B1D25116FC008 /* Pods-coin98-wallet-core_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-coin98-wallet-core_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68F1851106796F1CF50884766786B207 /* Pods-coin98-wallet-core_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-coin98-wallet-core_Example.release.xcconfig"; sourceTree = "<group>"; };
+		69DFC4F705910AECA47BE3AB59604DF1 /* coin98-wallet-core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "coin98-wallet-core-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C4DAE253E73BBA2E3E168936ABA452E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		84221B9BA5AC419A0E1CBCFAF2B490D6 /* coin98-wallet-core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "coin98-wallet-core.release.xcconfig"; sourceTree = "<group>"; };
+		882CE861D23F7BEF34357537A807D668 /* Pods-coin98-wallet-core_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-coin98-wallet-core_Tests-Info.plist"; sourceTree = "<group>"; };
+		95BC947ADFD821EFFBDA9EDFB26EFC3C /* Pods-coin98-wallet-core_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-coin98-wallet-core_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A08464F2B9EFB7DEFE68234994F93224 /* Pods-coin98-wallet-core_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-coin98-wallet-core_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A206E8CF55AF57EDF1FF9AA71C59783A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A7707FB19CD0DE079D1349A952820CB1 /* coin98-wallet-core */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "coin98-wallet-core"; path = coin98_wallet_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC75093C68C81C5F3B33953912D3D2A0 /* Pods-coin98-wallet-core_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-coin98-wallet-core_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE06791065D20B0553E08FAAAA03723D /* Pods-coin98-wallet-core_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-coin98-wallet-core_Tests-dummy.m"; sourceTree = "<group>"; };
+		B19EDEA43EF16FB7F5D43D192B8C6C75 /* Pods-coin98-wallet-core_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-coin98-wallet-core_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4D4EED0B147C7B5EF7F585448AC0284 /* Pods-coin98-wallet-core_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-coin98-wallet-core_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC962C5AB2147473A217DD3018803176 /* coin98-wallet-core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "coin98-wallet-core.debug.xcconfig"; sourceTree = "<group>"; };
+		D596CD9AD00E72606A8A04934AA2F06F /* coin98-wallet-core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "coin98-wallet-core.modulemap"; sourceTree = "<group>"; };
+		E0D47C8906F3CEEC65444297A3E37F5C /* coin98-wallet-core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "coin98-wallet-core-dummy.m"; sourceTree = "<group>"; };
+		E2F2DF7EC524243601A74697B7002315 /* Pods-coin98-wallet-core_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-coin98-wallet-core_Tests"; path = Pods_coin98_wallet_core_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BAD371350FA38FE19E1A67729D0A7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3CE70E364C449E1CA51716C76D3ADA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4C076121D7EEC8F136498B28006A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F1C7FFB195F6EC46A6B32D38BF9BE8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C767FD9454CCC463CA1690355E9F2DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D24132A7121723B7E07EA2FA32529FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20693D6058D61B76C655F0EF810E2517 /* Pods-coin98-wallet-core_Example */ = {
+			isa = PBXGroup;
+			children = (
+				24FD425E13E2494B6601036B88FCCBC2 /* Pods-coin98-wallet-core_Example.modulemap */,
+				40DAE1A2207A06AF35BB014B5E4F57F8 /* Pods-coin98-wallet-core_Example-acknowledgements.markdown */,
+				B4D4EED0B147C7B5EF7F585448AC0284 /* Pods-coin98-wallet-core_Example-acknowledgements.plist */,
+				95BC947ADFD821EFFBDA9EDFB26EFC3C /* Pods-coin98-wallet-core_Example-dummy.m */,
+				0F9FE955E363865A97FA0DBB264BFED4 /* Pods-coin98-wallet-core_Example-frameworks.sh */,
+				431845D5A658A870900D8D8C21C697DF /* Pods-coin98-wallet-core_Example-Info.plist */,
+				535AC82142BA52C8B836A7A20CD8E355 /* Pods-coin98-wallet-core_Example-umbrella.h */,
+				A08464F2B9EFB7DEFE68234994F93224 /* Pods-coin98-wallet-core_Example.debug.xcconfig */,
+				68F1851106796F1CF50884766786B207 /* Pods-coin98-wallet-core_Example.release.xcconfig */,
+			);
+			name = "Pods-coin98-wallet-core_Example";
+			path = "Target Support Files/Pods-coin98-wallet-core_Example";
+			sourceTree = "<group>";
+		};
+		429D9D9CA5820E7545827D3C90B6E6D4 /* coin98-wallet-core */ = {
+			isa = PBXGroup;
+			children = (
+				4AD27C488A4405C8DBD0A8E2743A0357 /* ReplaceMe.swift */,
+				5D9E1DAB2CB7E74239560CF8D1E6FAB8 /* Pod */,
+				A895AA3B0E3DD1E99DF5B90F15E6D9E9 /* Support Files */,
+			);
+			name = "coin98-wallet-core";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D9E1DAB2CB7E74239560CF8D1E6FAB8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				222EC2F001BA86237E8FAE8F963B3A52 /* coin98-wallet-core.podspec */,
+				7C4DAE253E73BBA2E3E168936ABA452E /* LICENSE */,
+				A206E8CF55AF57EDF1FF9AA71C59783A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		73939D0108B9157E113976CE48900016 /* Pods-coin98-wallet-core_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33BD997E0AD450FE596FC65C14D543A8 /* Pods-coin98-wallet-core_Tests.modulemap */,
+				682A016ED7D35455064B1D25116FC008 /* Pods-coin98-wallet-core_Tests-acknowledgements.markdown */,
+				B19EDEA43EF16FB7F5D43D192B8C6C75 /* Pods-coin98-wallet-core_Tests-acknowledgements.plist */,
+				AE06791065D20B0553E08FAAAA03723D /* Pods-coin98-wallet-core_Tests-dummy.m */,
+				882CE861D23F7BEF34357537A807D668 /* Pods-coin98-wallet-core_Tests-Info.plist */,
+				100B47CC0F2EAF1359B934091ED986F1 /* Pods-coin98-wallet-core_Tests-umbrella.h */,
+				4EA291F29AB30B210A03C80E8134051B /* Pods-coin98-wallet-core_Tests.debug.xcconfig */,
+				AC75093C68C81C5F3B33953912D3D2A0 /* Pods-coin98-wallet-core_Tests.release.xcconfig */,
+			);
+			name = "Pods-coin98-wallet-core_Tests";
+			path = "Target Support Files/Pods-coin98-wallet-core_Tests";
+			sourceTree = "<group>";
+		};
+		9A557A46940C8E9D246CB7EC9250A3E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20693D6058D61B76C655F0EF810E2517 /* Pods-coin98-wallet-core_Example */,
+				73939D0108B9157E113976CE48900016 /* Pods-coin98-wallet-core_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A895AA3B0E3DD1E99DF5B90F15E6D9E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D596CD9AD00E72606A8A04934AA2F06F /* coin98-wallet-core.modulemap */,
+				E0D47C8906F3CEEC65444297A3E37F5C /* coin98-wallet-core-dummy.m */,
+				69DFC4F705910AECA47BE3AB59604DF1 /* coin98-wallet-core-Info.plist */,
+				6437AD1FB9F8036647C8C7F27D8A5F1A /* coin98-wallet-core-prefix.pch */,
+				28EDD3D5B40D01C7EAADD19D293AAD5D /* coin98-wallet-core-umbrella.h */,
+				BC962C5AB2147473A217DD3018803176 /* coin98-wallet-core.debug.xcconfig */,
+				84221B9BA5AC419A0E1CBCFAF2B490D6 /* coin98-wallet-core.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/coin98-wallet-core";
+			sourceTree = "<group>";
+		};
+		B431D910DC0F4ECA96176A0177DC943D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				429D9D9CA5820E7545827D3C90B6E6D4 /* coin98-wallet-core */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B431D910DC0F4ECA96176A0177DC943D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ED6CDD3DFC3367F618AE1A78CC2C9AED /* Products */,
+				9A557A46940C8E9D246CB7EC9250A3E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED6CDD3DFC3367F618AE1A78CC2C9AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7707FB19CD0DE079D1349A952820CB1 /* coin98-wallet-core */,
+				58E6D3D3E2D4C6C385D14483043B2FD9 /* Pods-coin98-wallet-core_Example */,
+				E2F2DF7EC524243601A74697B7002315 /* Pods-coin98-wallet-core_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DE052679B61811ECFAD748313DD7821 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E68E93C04520D17BEE736BB615C417F /* Pods-coin98-wallet-core_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DE71F84F7431697E14E618BCC32AF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2149D52DE7D4D99085512FC1C1F08F34 /* Pods-coin98-wallet-core_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99298B4FA7045AC67C5A2D5D734D48B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26EF75E3C1FCF188C3AB5DCAF06A500 /* coin98-wallet-core-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ADF40584248B49A851D5BB38C0E77229 /* Pods-coin98-wallet-core_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D55A19C25FE1098468935DAE7F7B47A /* Build configuration list for PBXNativeTarget "Pods-coin98-wallet-core_Example" */;
+			buildPhases = (
+				91DE71F84F7431697E14E618BCC32AF3 /* Headers */,
+				1F6D213AF9BB67298D8BAFC9EE596E05 /* Sources */,
+				0BAD371350FA38FE19E1A67729D0A7D5 /* Frameworks */,
+				DFB0E7D5C89C86744DB4134005A4B241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				236DC26C7E4DE05B2A43172B8019D1BB /* PBXTargetDependency */,
+			);
+			name = "Pods-coin98-wallet-core_Example";
+			productName = Pods_coin98_wallet_core_Example;
+			productReference = 58E6D3D3E2D4C6C385D14483043B2FD9 /* Pods-coin98-wallet-core_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1B2227357D12C0A8A375DFD68F01C22 /* Pods-coin98-wallet-core_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C842EFA425487EC0C364B4EEC62D1805 /* Build configuration list for PBXNativeTarget "Pods-coin98-wallet-core_Tests" */;
+			buildPhases = (
+				8DE052679B61811ECFAD748313DD7821 /* Headers */,
+				BB487CA2CAF9EB0903DEB589FA1642A3 /* Sources */,
+				C767FD9454CCC463CA1690355E9F2DFB /* Frameworks */,
+				A91E08146400C387BEBDA845DD82739B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F56B442FB848BEE7E48A385481E804 /* PBXTargetDependency */,
+			);
+			name = "Pods-coin98-wallet-core_Tests";
+			productName = Pods_coin98_wallet_core_Tests;
+			productReference = E2F2DF7EC524243601A74697B7002315 /* Pods-coin98-wallet-core_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2D953516667D130A6CF224A6E3D9EB6 /* coin98-wallet-core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A7968FADAB02C56D06AB403B536AB4 /* Build configuration list for PBXNativeTarget "coin98-wallet-core" */;
+			buildPhases = (
+				99298B4FA7045AC67C5A2D5D734D48B3 /* Headers */,
+				754807F0DD50AEC299C5E6348B2638A7 /* Sources */,
+				6D4C076121D7EEC8F136498B28006A44 /* Frameworks */,
+				1FE9BD6D6068FCD8C597286A29BB3AD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "coin98-wallet-core";
+			productName = coin98_wallet_core;
+			productReference = A7707FB19CD0DE079D1349A952820CB1 /* coin98-wallet-core */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ED6CDD3DFC3367F618AE1A78CC2C9AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D953516667D130A6CF224A6E3D9EB6 /* coin98-wallet-core */,
+				ADF40584248B49A851D5BB38C0E77229 /* Pods-coin98-wallet-core_Example */,
+				B1B2227357D12C0A8A375DFD68F01C22 /* Pods-coin98-wallet-core_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FE9BD6D6068FCD8C597286A29BB3AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91E08146400C387BEBDA845DD82739B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB0E7D5C89C86744DB4134005A4B241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6D213AF9BB67298D8BAFC9EE596E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A187240E48A854D6A28D516BA5355E4 /* Pods-coin98-wallet-core_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754807F0DD50AEC299C5E6348B2638A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345E71CBC4104378D1ABFEBE8EFD5AFE /* coin98-wallet-core-dummy.m in Sources */,
+				55CD99967D0B4039CB05419FB7363E6B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB487CA2CAF9EB0903DEB589FA1642A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3183FE2669EC33776A9D251FB82367DA /* Pods-coin98-wallet-core_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16F56B442FB848BEE7E48A385481E804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-coin98-wallet-core_Example";
+			target = ADF40584248B49A851D5BB38C0E77229 /* Pods-coin98-wallet-core_Example */;
+			targetProxy = 6F2614F6DD02C0240688585FD56B2A06 /* PBXContainerItemProxy */;
+		};
+		236DC26C7E4DE05B2A43172B8019D1BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "coin98-wallet-core";
+			target = D2D953516667D130A6CF224A6E3D9EB6 /* coin98-wallet-core */;
+			targetProxy = F6F49267F80106AE4F03EBF751BF8390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A33B187133E3E82BC2C98D08F77F95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84221B9BA5AC419A0E1CBCFAF2B490D6 /* coin98-wallet-core.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/coin98-wallet-core/coin98-wallet-core-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/coin98-wallet-core/coin98-wallet-core-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/coin98-wallet-core/coin98-wallet-core.modulemap";
+				PRODUCT_MODULE_NAME = coin98_wallet_core;
+				PRODUCT_NAME = coin98_wallet_core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45EB276ED70BDD781FBEB807F4B7C2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F1851106796F1CF50884766786B207 /* Pods-coin98-wallet-core_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-coin98-wallet-core_Example/Pods-coin98-wallet-core_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-coin98-wallet-core_Example/Pods-coin98-wallet-core_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6032DB129330B7074DA63FF8DF469577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA291F29AB30B210A03C80E8134051B /* Pods-coin98-wallet-core_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-coin98-wallet-core_Tests/Pods-coin98-wallet-core_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-coin98-wallet-core_Tests/Pods-coin98-wallet-core_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		608AEF6410075A16D3BA3346032D3F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08464F2B9EFB7DEFE68234994F93224 /* Pods-coin98-wallet-core_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-coin98-wallet-core_Example/Pods-coin98-wallet-core_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-coin98-wallet-core_Example/Pods-coin98-wallet-core_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B64028F743B85290A23B05F864BC3498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC962C5AB2147473A217DD3018803176 /* coin98-wallet-core.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/coin98-wallet-core/coin98-wallet-core-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/coin98-wallet-core/coin98-wallet-core-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/coin98-wallet-core/coin98-wallet-core.modulemap";
+				PRODUCT_MODULE_NAME = coin98_wallet_core;
+				PRODUCT_NAME = coin98_wallet_core;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E42D3166D996F9D86FA852D1C218D2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC75093C68C81C5F3B33953912D3D2A0 /* Pods-coin98-wallet-core_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-coin98-wallet-core_Tests/Pods-coin98-wallet-core_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-coin98-wallet-core_Tests/Pods-coin98-wallet-core_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D55A19C25FE1098468935DAE7F7B47A /* Build configuration list for PBXNativeTarget "Pods-coin98-wallet-core_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608AEF6410075A16D3BA3346032D3F39 /* Debug */,
+				45EB276ED70BDD781FBEB807F4B7C2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C842EFA425487EC0C364B4EEC62D1805 /* Build configuration list for PBXNativeTarget "Pods-coin98-wallet-core_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6032DB129330B7074DA63FF8DF469577 /* Debug */,
+				E42D3166D996F9D86FA852D1C218D2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A7968FADAB02C56D06AB403B536AB4 /* Build configuration list for PBXNativeTarget "coin98-wallet-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64028F743B85290A23B05F864BC3498 /* Debug */,
+				1A33B187133E3E82BC2C98D08F77F95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

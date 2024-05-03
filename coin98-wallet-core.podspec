@@ -21,16 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/76133582/coin98-wallet-core'
+  s.homepage         = 'https://github.com/ohdcthang/coin98-wallet-core.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '76133582' => 'hoducthangtn2nhvt@gmail.com' }
-  s.source           = { :git => 'https://github.com/76133582/coin98-wallet-core.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ohdcthang/coin98-wallet-core.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'coin98-wallet-core/Classes/**/*'
+  
+  s.dependency "TrustWalletCore"
   
   # s.resource_bundles = {
   #   'coin98-wallet-core' => ['coin98-wallet-core/Assets/*.png']

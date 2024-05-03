@@ -1,5 +1,5 @@
 import XCTest
-import coin98-wallet-core
+//import coin98-wallet-core
 
 class Tests: XCTestCase {
     

@@ -1,0 +1,6 @@
+framework module coin98_wallet_core {
+  umbrella header "coin98-wallet-core-umbrella.h"
+
+  export *
+  module * { export * }
+}
